@@ -89,8 +89,7 @@
 				682EB14715A1A76E0060AC31 /* AppDelegate.h */,
 				682EB14815A1A76E0060AC31 /* AppDelegate.m */,
 				682EB14A15A1A76F0060AC31 /* MainMenu.xib */,
-				682EB22315A46B320060AC31 /* icon1.png */,
-				682EB22415A46B320060AC31 /* icon2.png */,
+				682EB22815A47BD60060AC31 /* Icon */,
 				682EB13C15A1A76E0060AC31 /* Supporting Files */,
 			);
 			path = Apptest;
@@ -106,6 +105,15 @@
 				682EB14415A1A76E0060AC31 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682EB22815A47BD60060AC31 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				682EB22315A46B320060AC31 /* icon1.png */,
+				682EB22415A46B320060AC31 /* icon2.png */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
