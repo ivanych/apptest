@@ -13,6 +13,8 @@
 		682EB14615A1A76E0060AC31 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 682EB14415A1A76E0060AC31 /* Credits.rtf */; };
 		682EB14915A1A76E0060AC31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682EB14815A1A76E0060AC31 /* AppDelegate.m */; };
 		682EB14C15A1A76F0060AC31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682EB14A15A1A76F0060AC31 /* MainMenu.xib */; };
+		682EB22515A46B320060AC31 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 682EB22315A46B320060AC31 /* icon1.png */; };
+		682EB22615A46B320060AC31 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 682EB22415A46B320060AC31 /* icon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		682EB14715A1A76E0060AC31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		682EB14815A1A76E0060AC31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		682EB14B15A1A76F0060AC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		682EB22315A46B320060AC31 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		682EB22415A46B320060AC31 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				682EB14715A1A76E0060AC31 /* AppDelegate.h */,
 				682EB14815A1A76E0060AC31 /* AppDelegate.m */,
 				682EB14A15A1A76F0060AC31 /* MainMenu.xib */,
+				682EB22315A46B320060AC31 /* icon1.png */,
+				682EB22415A46B320060AC31 /* icon2.png */,
 				682EB13C15A1A76E0060AC31 /* Supporting Files */,
 			);
 			path = Apptest;
@@ -155,6 +161,8 @@
 				682EB14015A1A76E0060AC31 /* InfoPlist.strings in Resources */,
 				682EB14615A1A76E0060AC31 /* Credits.rtf in Resources */,
 				682EB14C15A1A76F0060AC31 /* MainMenu.xib in Resources */,
+				682EB22515A46B320060AC31 /* icon1.png in Resources */,
+				682EB22615A46B320060AC31 /* icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				682EB15115A1A76F0060AC31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
