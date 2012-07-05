@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680288FF15A598C000B99338 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		682EB13115A1A76E0060AC31 /* Apptest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apptest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682EB13515A1A76E0060AC31 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		682EB13815A1A76E0060AC31 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -136,6 +137,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = 682EB12615A1A76E0060AC31;
 			productRefGroup = 682EB13215A1A76E0060AC31 /* Products */;
@@ -193,6 +195,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				682EB14B15A1A76F0060AC31 /* en */,
+				680288FF15A598C000B99338 /* ru */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				682EB15115A1A76F0060AC31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
