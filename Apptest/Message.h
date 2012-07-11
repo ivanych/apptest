@@ -10,4 +10,6 @@
 
 @interface Message : NSObject
 
+- (void)showMessage:(id)message;
+
 @end

@@ -10,4 +10,10 @@
 
 @implementation Message
 
+- (void)showMessage:(id)message {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:message];
+    [alert runModal];
+}
+
 @end
