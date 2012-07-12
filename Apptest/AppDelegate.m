@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Message.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,17 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (IBAction)pushButton:(id)sender {
+    // Создаем объект нашего класса Message
+    Message *mes = [[Message alloc] init];
+    
+    // Сообщение будет таким
+    NSString * message = @"Hello World!";
+    
+    // Вызываем метод из нашего класса
+    [mes showMessage:message];
 }
 
 @end
